@@ -1,0 +1,10 @@
+[Unit]
+Description=Spiral Knights: вернуть пресет отдалённой камеры в scene_global.dat
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/share/sk-zoom/bin/apply.sh
+
+[Install]
+WantedBy=default.target

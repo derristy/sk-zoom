@@ -1,0 +1,9 @@
+[Unit]
+Description=Следить за scene_global.dat Spiral Knights
+
+[Path]
+PathChanged=%h/snap/steam/common/.local/share/Steam/steamapps/common/Spiral Knights/rsrc/config/scene_global.dat
+Unit=sk-zoom.service
+
+[Install]
+WantedBy=default.target
